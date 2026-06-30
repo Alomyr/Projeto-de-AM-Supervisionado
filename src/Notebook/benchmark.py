@@ -105,7 +105,7 @@ resultados.append(res_mobilenet)
 
 # Teste 2: EfficientNetB0
 model_efficientnet = construir_efficientnetb0()
-res_efficientnet = rodar_benchmark("EfficientNetB0", model_efficientnet, "pesos_efficientnet.weights.h5", val_dataset)
+res_efficientnet = rodar_benchmark("EfficientNetB0", model_efficientnet, "pesos_efficientnet_B0.weights.h5", val_dataset)
 resultados.append(res_efficientnet)
 
 # --- 5. PLOT COMPARATIVO DAS MATRIZES DE CONFUSÃO ---
